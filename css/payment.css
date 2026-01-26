@@ -1,0 +1,18 @@
+label{
+    font-family: sans-serif;
+    font-size: 40px;
+
+}
+
+input{
+border-width: 30px;
+border-radius: 10px;
+
+}
+
+input:hover{
+background-color: rgb(248, 225, 18);
+
+
+}
+

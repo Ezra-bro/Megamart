@@ -1,0 +1,53 @@
+form{
+    background-color: rgb(67, 192, 230);
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 70px;
+    box-shadow: 8px 8px 12px rgb(0, 225, 255);
+    color: rgb(17, 16, 15);
+
+}
+
+legend{
+    font-weight: bold;
+    color: azure;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 8px 8x 12px rgb(214, 131, 131);
+    margin-bottom: 10px;
+}
+input[type="text"],  input[type="email"], input[type="password"], input[type="tel"],
+input[type="number"], input[type="date"], input[type="datetime-local"], input[type="select"]{
+
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    box-shadow: 8px 8px 8px black;
+}
+
+textarea{
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px black;
+    
+}
+
+button{
+    background-color: rgb(119, 119, 134);
+    color: wheat;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 12px black;
+    display: block;
+    margin: auto;
+}
+button:hover{
+background-color: black;
+color: aqua;
+box-shadow: 8px 8px 12px rgb(240, 234, 234);
+
+}
+
+
