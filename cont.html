@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Page</title>
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(135deg, #7b5cff, #b06cff);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 900px;
+        height: 500px;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        overflow: hidden;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+
+    <!--/* LEFT PANEL */-->
+    .left {
+        width: 45%;
+        background: #28c1c7;
+        color: #fff;
+        padding: 60px 40px;
+    }
+
+    .left h1 {
+        margin: 0;
+        font-size: 42px;
+    }
+
+    .left p {
+        margin-top: 20px;
+        line-height: 1.6;
+        font-size: 16px;
+    }
+
+    <!--/* RIGHT PANEL */-->
+    .right {
+        width: 55%;
+        padding: 40px 60px;
+        position: relative;
+    }
+
+    .contact-title {
+        position: absolute;
+        right: -40px;
+        top: 50%;
+        transform: rotate(90deg) translateY(-50%);
+        font-size: 32px;
+        font-weight: bold;
+        color: #000;
+        margin: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    input, textarea {
+        padding: 12px;
+        border: none;
+        border-bottom: 2px solid #ddd;
+        outline: none;
+        font-size: 14px;
+    }
+
+    textarea {
+        resize: none;
+        height: 80px;
+    }
+
+    button {
+        position: absolute;
+        left: -25px;
+        bottom: 40px;
+        padding: 14px 20px;
+        background: #28c1c7;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+        background: #1faab0;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+
+    <div class="left">
+        <h1>Let’s Chat</h1>
+        <p>
+            Whether you have a question, want to start a project or simply want
+            to connect.
+        </p>
+        <p>
+            Feel free to send me a message in the contact form.
+        </p>
+    </div>
+
+    <div class="right">
+        <div class="contact-title">Contact</div>
+
+        <form>
+            <input type="text" placeholder="Name *" required> 
+            <input type="email" placeholder="Email *" required>
+            <input type="text" placeholder="Company">
+            <input type="tel" placeholder="Phone">
+            <textarea placeholder="Message"></textarea>
+        </form>
+
+        <button type="submit">SUBMIT</button>
+    </div>
+
+</div>
+
+</body>
+</html>
